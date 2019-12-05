@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/../sinosoft" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../sinosoft/config-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../sinosoft/config-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../sinosoft/eureka-client-v1" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../sinosoft/eureka-client-v2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../sinosoft/eureka-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../sinosoft/gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../sinosoft/serice-feign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../sinosoft/service-ribbon" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../sinosoft/service-zuul" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,12 @@
+#首先指定服务注册中心的地址为http://localhost:8080/eureka/
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8080/eureka/
+server:
+  port: 8084
+#服务名称service-ribbon
+spring:
+  application:
+    name: service-ribbon
+

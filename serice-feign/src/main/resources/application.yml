@@ -1,0 +1,13 @@
+#首先指定服务注册中心的地址为http://localhost:8080/eureka/
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8080/eureka/
+server:
+  port: 8083
+#服务名称service-feign
+spring:
+  application:
+    name: service-feign
+#开启熔断
+feign.hystrix.enabled: true

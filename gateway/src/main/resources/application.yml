@@ -1,0 +1,15 @@
+server:
+  port: 8882
+spring:
+  cloud:
+    gateway:
+      routes:
+      - id: neo_route
+        uri: https://www.baidu.com
+        predicates:
+          - Path=/spring-cloud
+#首先指定服务注册中心的地址为http://localhost:8080/eureka/
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8080/eureka/
